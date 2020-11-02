@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style type="text/css">
+    body > * {
+        font-size: 13px;
+        color: white;
+        font-weight: bold;
+    }
+    input[type=text] {
+        width: 100%; /*親要素いっぱい広げる*/
+        padding: 10px 15px; /*ボックスを大きくする*/
+        font-size: 16px;
+        border-radius: 3px;
+        border: 2px solid #ddd;
+        box-sizing: border-box;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .button {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #06ac38;
+        font-size: 20px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div style="margin-bottom: 30px">
+        <label for="api_key">API Key</label>
+        <input type="text" name="api_key" id="api_key" />
+    </div>
+    <div style="margin-bottom: 30px">
+        <label for="user_id">User ID</label>
+        <input type="text" name="user_id" id="user_id" />
+    </div>
+    <p class="button" data-js-action="clickSave">Save</p>
+    <script src="./script.js"></script>
+</body>
+</html>
