@@ -1,8 +1,11 @@
 # PagerDuty App
 PagerDuty app is an application designed for macOS that notifies you of incidents.
 
-# Installation
-[Download]()
+# Build
+```
+yarn
+yran dist
+```
 
 # Usage
 1. [Generating API Keys](https://support.pagerduty.com/docs/generating-api-keys#generating-a-personal-rest-api-key)
