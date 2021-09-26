@@ -4,12 +4,12 @@
   "main": "main.js",
   "license": "MIT",
   "dependencies": {
-    "dayjs": "^1.9.4",
-    "electron-store": "^6.0.1"
+    "dayjs": "^1.10.7",
+    "electron-store": "^8.0.1"
   },
   "devDependencies": {
-    "electron": "^10.1.5",
-    "electron-builder": "^22.9.1"
+    "electron": "^15.0.0",
+    "electron-builder": "^22.11.7"
   },
   "scripts": {
     "start": "electron .",
@@ -21,5 +21,5 @@
     "mac": {
       "category": "com.github.satotakumi.pagerduty-app"
     }
-  }  
+  }
 }
