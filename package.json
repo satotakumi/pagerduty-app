@@ -1,22 +1,22 @@
 {
   "name": "pagerduty-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "main.js",
   "license": "MIT",
   "dependencies": {
-    "dayjs": "^1.10.7",
+    "dayjs": "^1.11.0",
     "electron-store": "^8.0.1"
   },
   "devDependencies": {
-    "electron": "^17.0.1",
-    "electron-builder": "^22.14.13",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.4.0",
+    "electron": "^18.0.3",
+    "electron-builder": "^23.0.3",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.2"
   },
   "scripts": {
     "start": "electron .",
